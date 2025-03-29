@@ -20,9 +20,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Image.network(
-                "https://avatars.mds.yandex.net/i?id=d0ce4f2901956cbcf4e10583c7c3b992_sr-3548415-images-thumbs&n=13",
-              ),
+              Image.asset("assets/i.webp"),
               SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
